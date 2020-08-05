@@ -18,5 +18,5 @@ class Book
   #   @author
   # end
 
-  d
+
 end
