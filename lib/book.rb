@@ -4,15 +4,19 @@ class Book
     @title = title
   end
 
-  def title
-    @title
-  end
+  attr_accessor(:title, :author, :page_count)
 
-  def author=(author)
-    @author = author
-  end
+  # def title
+  #   @title
+  # end
+  # 
+  # def author=(author)
+  #   @author = author
+  # end
+  # 
+  # def author
+  #   @author
+  # end
 
-  def author
-    @author
-  end
+  d
 end
